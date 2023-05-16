@@ -1,0 +1,44 @@
+{
+  "name": "storybook-nextjs",
+  "version": "1.0.0",
+  "description": "This repository is created for learning about this framework and storybook , for create good documentations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CelsonF/storybook-nextjs.git"
+  },
+  "keywords": [],
+  "author": "Celson Fernando <https://github.com/CelsonF>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CelsonF/storybook-nextjs/issues"
+  },
+  "homepage": "https://github.com/CelsonF/storybook-nextjs#readme",
+  "dependencies": {
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@storybook/addon-actions": "^7.0.12",
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/builder-webpack5": "^7.0.12",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/nextjs": "^7.0.12",
+    "@storybook/react": "^7.0.12",
+    "@storybook/testing-library": "^0.1.0",
+    "babel-loader": "^8.3.0",
+    "storybook": "^7.0.12"
+  }
+}
